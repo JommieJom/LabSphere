@@ -11,14 +11,14 @@ function Features() {
                     <ul className="features_items">
                         <FeatureItem 
                         src="images/slogan1.png" 
-                        text="Complete all the programming labs Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae rhoncus mi, eu interdum nulla. Vestibulum pulvinar enim augue, a suscipit leo blandit a. In maximus a risus et fermentum."
-                        label='Learn Music'
+                        text="Complete all the programming labs Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae rhoncus mi, eu interdum nulla."
+                        label='Do Labs'
                         path='/learn-up' 
                         />
                         <FeatureItem 
                         src="images/slogan3.png" 
-                        text="Track your progress Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae rhoncus mi, eu interdum nulla. Vestibulum pulvinar enim augue, a suscipit leo blandit a. In maximus a risus et fermentum."
-                        label='Quiz Yourself'
+                        text="Track your progress Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae rhoncus mi, eu interdum nulla."
+                        label='Track progress'
                         path='/quiz-up' 
                         />
                     </ul>

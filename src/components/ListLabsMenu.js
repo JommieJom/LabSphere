@@ -6,7 +6,7 @@ import './ListLabsMenu.css';
 function ListLabsMenu() {
     return (
         <div className="list_lab">
-            <h1>Labs List</h1>
+            <h1>Course List</h1>
             <div className="list_lab_container">
                 <div className="list_lab_wrapper">
                     <ul className="list_lab_items">

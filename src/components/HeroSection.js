@@ -10,7 +10,7 @@ function HeroSection() {
         <div className='hero-container'>
             <video src='/videos/video-1.mp4' autoPlay loop muted />
             <h1>Labs anywhere, anytime</h1>
-            <p>The number1 coding platform for KMITL Software Engineering stuents</p>
+            <p>The number1 coding platform for KMITL Software Engineering students</p>
             <div className="hero-btns">
                 <Link to='/learn-up' className='btn-mobile'>
                     <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>GET STARTED</Button>
