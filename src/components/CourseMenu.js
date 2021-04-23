@@ -13,7 +13,7 @@ function CourseMenu() {
                             src="images/pythonLogo.png"
                             text="Python Lab is very fun by DocV"
                             label='Python Lab'
-                            path='/'
+                            path='/lab-list'
                         />
                         <CourseItem
                             src="images/c++Logo.png"
