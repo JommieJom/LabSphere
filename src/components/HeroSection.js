@@ -12,7 +12,7 @@ function HeroSection() {
             <h1>Labs anywhere, anytime</h1>
             <p>The number1 coding platform for KMITL Software Engineering students</p>
             <div className="hero-btns">
-                <Link to='/learn-up' className='btn-mobile'>
+                <Link to='/p' className='btn-mobile'>
                     <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>GET STARTED</Button>
                 </Link>
                 <Link to='/about-us' className='btn-mobile'>

@@ -13,13 +13,13 @@ function Features() {
                         src="images/slogan1.png" 
                         text="Complete all the programming labs Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae rhoncus mi, eu interdum nulla."
                         label='Do Labs'
-                        path='/learn-up' 
+                        path='/course-up' 
                         />
                         <FeatureItem 
                         src="images/slogan3.png" 
                         text="Track your progress Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae rhoncus mi, eu interdum nulla."
                         label='Track progress'
-                        path='/quiz-up' 
+                        path='/' 
                         />
                     </ul>
                 
