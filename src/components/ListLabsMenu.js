@@ -6,7 +6,7 @@ import './ListLabsMenu.css';
 function ListLabsMenu() {
     return (
         <div className="list_lab">
-            <h1>Course List</h1>
+            <h1>Labs </h1>
             <div className="list_lab_container">
                 <div className="list_lab_wrapper">
                     <ul className="list_lab_items">
@@ -19,14 +19,14 @@ function ListLabsMenu() {
                     <ul className="list_lab_items">
                         <ListItem
                             src=""
-                            text="C++ Lab2"
+                            text="Python Lab 2"
                             path='/'
                         />
                     </ul>
                     <ul className="list_lab_items">
                         <ListItem
                             src=""
-                            text="Java Lab1"
+                            text="Python Lab 3"
                             path='/'
                         />
                     </ul>
