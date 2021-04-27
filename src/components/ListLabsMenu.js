@@ -13,7 +13,7 @@ function ListLabsMenu() {
                         <ListItem
                             src=""
                             text="Python Lab 1"
-                            path='/'
+                            path='/editor'
                         />
                     </ul>
                     <ul className="list_lab_items">
@@ -27,6 +27,20 @@ function ListLabsMenu() {
                         <ListItem
                             src=""
                             text="Python Lab 3"
+                            path='/editor'
+                        />
+                    </ul>
+                    <ul className="list_lab_items">
+                        <ListItem
+                            src=""
+                            text="Python Lab 4"
+                            path='/'
+                        />
+                    </ul>
+                    <ul className="list_lab_items">
+                        <ListItem
+                            src=""
+                            text="Python Lab 5"
                             path='/'
                         />
                     </ul>

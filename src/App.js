@@ -7,6 +7,7 @@ import Course from './components/pages/Course';
 import Labs from './components/pages/Labs';
 import Footer from './components/Footer';
 
+
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/course-up' component={Course} />
           <Route path='/lab-list' component={Labs} />
+          
         </switch>
         <Footer />
       </Router>

@@ -19,7 +19,7 @@ function CourseMenu() {
                             src="images/c++Logo.png"
                             text="Object Oriented Programming C++ is very fun by Doc.Ugrit"
                             label='OOP Lab'
-                            path='/'
+                            path='/lab-list'
                         />
 
                     </ul>
