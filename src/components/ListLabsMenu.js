@@ -13,7 +13,7 @@ function ListLabsMenu() {
                         <ListItem
                             src=""
                             text="Python Lab 1"
-                            path='/editor'
+                            path='/code-editor'
                         />
                     </ul>
                     <ul className="list_lab_items">

@@ -5,8 +5,8 @@
 }
 
 .home,
-.learn-up,
-.quiz-up,
+.course-up,
+.lab-list,
 .about-us,
 .sign-up {
   display: flex;
@@ -16,18 +16,17 @@
   font-size: 3rem;
 }
 
-.learn-up {
+.course-up {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 100px;
 }
 
-.quiz-up {
+.lab-list {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: Pink;
   font-size: 100px;
 }
 
