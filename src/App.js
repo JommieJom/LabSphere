@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
@@ -8,6 +9,7 @@ import Labs from './components/pages/Labs';
 import Footer from './components/Footer';
 import SignUp from './components/pages/SignUp';
 import CodeEditor from './components/pages/CodeEditor';
+import EditCourse from './components/pages/EditCourse';
 
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
           <Route path='/lab-list' component={Labs} />
           <Route path='/sign-up' component={SignUp} />
           <Route path='/code-editor' component={CodeEditor} />
+          <Route path='/edit-course' component={EditCourse} />
         </switch>
         <Footer />
       </Router>
