@@ -2,6 +2,7 @@ import React from 'react';
 import CourseItem from './CourseItem';
 import './CourseMenu.css';
 
+
 function CourseMenu() {
     return (
         <div className="course">
