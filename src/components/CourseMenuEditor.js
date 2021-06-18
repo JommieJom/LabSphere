@@ -51,7 +51,7 @@ const CourseMenuEditor = () => {
         <>
             <div className = "header text-center">
                 <h3>Lab Management</h3>
-                <button className = "btn btn-primary mt-2" onClick = {() => setModal(true)} >Create Lab</button>
+                <button className = "btn btn-primary mt-2" onClick = {() => setModal(true)} >Create Workspace</button>
             </div>
             <div className = "task-container">
                 {taskList && taskList.map((obj , index) => <Card taskObj = {obj} index = {index} deleteTask = {deleteTask} updateListArray = {updateListArray}/> )}
