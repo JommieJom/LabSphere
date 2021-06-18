@@ -1,0 +1,30 @@
+.site-layout {
+    padding-top: 80px;
+  }
+  
+
+  .Markdown {
+    text-align: left;
+  }
+  
+  .site-layout-content {
+    min-height: 280px;
+    padding: 24px;
+    background: rgb(195, 239, 250);
+  }
+  
+  .iconhome {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .site-layout .site-layout-background {
+    text-align: center;
+    background: rgb(4, 19, 66);
+    color: #fff;
+  }
