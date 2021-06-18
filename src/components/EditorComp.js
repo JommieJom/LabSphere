@@ -1,7 +1,7 @@
 import React from 'react';
 import LabQuestion from './LabQuestion';
 //import ReactMarkdown from "react-markdown";
-//import "antd/dist/antd.css";
+import "antd/dist/antd.css";
 import { Collapse } from 'antd';
 
 import { Editors } from './Editor';
