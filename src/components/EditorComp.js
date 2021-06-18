@@ -12,20 +12,29 @@ const { SubMenu } = Menu;
 const { Panel } = Collapse;
 
 const markdown = `
-This lab is to create a list of catalog items and sort it. The item may be a 'Book' or a 'CD'. Both 'Book' and 'CD' will therefore be classes implementing an interface called 'Media'. Since the catalog item can be a 'Book' or a 'CD', we will make a generic class called 'CatalogItem' which can take one of these two types.
-The details are as follows:
--	Each Book and a CD has its own unique ID. The difference between the CD class and the Book class will be in the data types for the ID, since a CD usually has an integer code as its ID and a book uses an alphanumeric string code (ISBN). These ID's will be the basis of the sorting which this lab aims to accomplish.
-- As CatalogItem is a generic class with a single parameter, and we can create a CatalogITem of type book or a CD.
-- A catalog will be represented as an ArrayList of CatalogItems.
-- CatalogItem will be Comparable itself, as we wish to call 'sort' on a list of CatalogItems, which in turn calls the compareTo() method to do the sorting.
+## Lab1: Above Average
+It is said that 90% of frosh expect to be above average in their class. You are to provide a reality check.
 ***
-## Question 1
-Create Media.java: An interface with four methods that every class considered to be some form of media should be able to define.  
-public <T> Comparable<T> getId(): Returns a generic type Id which will be an Integer or a String based on whether a Book implements Media or a CD.  
-getCreator(): Returns a String and has no arguments. Its return value should be the name of the person responsible for creating this Media.  
-getTitle(): Returns a String and has no arguments. Its return value should be the title of this Media.  
-getYear(): Returns an int and has no arguments. Its return value should be the year that this Media was created.
-***`;
+## Input
+The first line of standard input contains an integer 1≤𝐶≤50, the number of test cases. 
+𝐶 data sets follow. Each data set begins with an integer, 𝑁, the number of people in the class (1≤𝑁≤1000). 
+𝑁 integers follow, separated by spaces or newlines, each giving the final grade (an integer between 0 and 100) of a student in the class.
+## Output
+For each case you are to output a line giving the percentage of students whose grade is above average, rounded to exactly 3 decimal places.
+### Sample Input 1
+5\n
+5 50 50 70 80 100\n
+7 100 95 90 80 70 60 50\n
+3 70 90 80\n
+3 70 90 81\n
+9 100 99 98 97 96 95 94 93 91\n
+### Sample Output 1
+40.000%\n
+57.143%\n
+33.333%\n
+66.667%\n
+55.556%\n
+`;
 
 class LabSelection extends React.Component {
     state = {
@@ -58,7 +67,7 @@ class LabSelection extends React.Component {
                             defaultOpenKeys={['sub1']}
                             mode="inline"
                         >
-                            <SubMenu key="sub1" icon={<AppstoreOutlined />} title="Python">
+                            <SubMenu key="sub1" icon={<AppstoreOutlined />} title="Java">
                                 <Menu.ItemGroup key="g1" title="Lab 1">
                                     <Menu.Item key="i1">Question 1</Menu.Item>
                                     <Menu.Item key="i2">Question 2</Menu.Item>
@@ -71,7 +80,7 @@ class LabSelection extends React.Component {
                         </Menu>
                     </Sider>
                     <Layout className="site-layout">
-                        <Header className="site-layout-background" style={{fontFamily:'Righteous', fontSize:30, padding: 0 }}>Python</Header>
+                        <Header className="site-layout-background" style={{fontFamily:'Righteous', fontSize:30, padding: 0 }}>Java</Header>
                         <Content style={{ margin: '0 16px' }}>
                             <div className="site-layout-background" style={{ padding: 24, minHeight: 360 }}>
                                 <Collapse defaultActiveKey={['Markdown', 'Code']}>
@@ -85,7 +94,11 @@ class LabSelection extends React.Component {
                                     </Panel>
 
                                     <Panel header="Result" key="Result">
-                                        <p>lorem</p>
+                                        <p>40.000%</p>
+                                        <p>57.143%</p>
+                                        <p>33.333%</p>
+                                        <p>66.667%</p>
+                                        <p>55.556%</p>
                                     </Panel>
                                 </Collapse>
                             </div>
