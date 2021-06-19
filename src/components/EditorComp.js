@@ -106,7 +106,7 @@ class LabSelection extends React.Component {
                                 </Collapse>
                             </div>
                         </Content>
-                        <Footer style={{ textAlign: 'center' }}>Footer</Footer>
+                        <Footer style={{ textAlign: 'center' }}></Footer>
                     </Layout>
                 </Layout>
             </div>
