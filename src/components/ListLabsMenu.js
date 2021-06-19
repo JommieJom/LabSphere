@@ -13,14 +13,14 @@ function ListLabsMenu() {
                         <ListItem
                             src=""
                             text="Java Lab 1"
-                            path='/code-editor'
+                            path='/code-editor/1'
                         />
                     </ul>
                     <ul className="list_lab_items">
                         <ListItem
                             src=""
                             text="Java Lab 2"
-                            path='/'
+                            path='/code-editor/2'
                         />
                     </ul>
                     <ul className="list_lab_items">

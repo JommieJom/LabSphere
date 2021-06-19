@@ -13,35 +13,35 @@ function ListLabsSample() {
                         <ListItem
                             src=""
                             text="Java Lab 1 Question and samples"
-                            path='/question-editor'
+                            path='/question-editor/1'
                         />
                     </ul>
                     <ul className="list_lab_items">
                         <ListItem
                             src=""
                             text="Java Lab 2 Question and samples"
-                            path='/question-editor'
+                            path='/question-editor/2'
                         />
                     </ul>
                     <ul className="list_lab_items">
                         <ListItem
                             src=""
                             text="Java Lab 3 Question and samples"
-                            path='/question-editor'
+                            path='/question-editor/2'
                         />
                     </ul>
                     <ul className="list_lab_items">
                         <ListItem
                             src=""
                             text="Java Lab 4 Question and samples"
-                            path='/question-editor'
+                            path='/question-editor/2'
                         />
                     </ul>
                     <ul className="list_lab_items">
                         <ListItem
                             src=""
                             text="Java Lab 5 Question and samples"
-                            path='/question-editor'
+                            path='/question-editor/2'
                         />
                     </ul>
                    
