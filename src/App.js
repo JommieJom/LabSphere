@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './components/pages/Home';
+import Home from './components/home-page/Home';
 import Course from './components/pages/Course';
 import Labs from './components/pages/Labs';
 import LabsSample from './components/pages/LabsSample';
@@ -12,8 +12,8 @@ import SignUp from './components/pages/SignUp';
 import CodeEditor from './components/pages/CodeEditor';
 import CodeEditor2 from './components/pages/CodeEditor2';
 import EditCourse from './components/pages/EditCourse';
-import AdminEditor from './components/pages/AdminEditor';
-import AdminEditor2 from './components/pages/AdminEditor2';
+import AdminEditor from './components/admin-editor-page/AdminEditor';
+import AdminEditor2 from './components/admin-editor-page/AdminEditor2';
 
 function App() {
   return (
