@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
 import Course from './components/pages/Course';
 import Labs from './components/pages/Labs';
+import LabsSample from './components/pages/LabsSample';
 import Footer from './components/Footer';
 import SignUp from './components/pages/SignUp';
 import CodeEditor from './components/pages/CodeEditor';
@@ -21,10 +22,11 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/course-up' component={Course} />
           <Route path='/lab-list' component={Labs} />
+          <Route path='/lab-sample' component={LabsSample} />
           <Route path='/sign-up' component={SignUp} />
           <Route path='/code-editor' component={CodeEditor} />
           <Route path='/edit-course' component={EditCourse} />
-          <Route path='/admin-editor' component={AdminEditor} />
+          <Route path='/question-editor' component={AdminEditor} />
         </switch>
         <Footer />
       </Router>
