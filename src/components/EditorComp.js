@@ -49,10 +49,16 @@ class LabSelection extends React.Component {
                         >
                             <SubMenu key="sub1" icon={<AppstoreOutlined />} title="Java">
                                 <Menu.ItemGroup key="g1" title="Lab 1">
-                                    <Menu.Item key="i1">Question 1</Menu.Item>
+                                    <Link to='/code-editor/1'>
+                                        <Menu.Item key="i1">Question 1</Menu.Item>
+                                    </Link>
+                                    
                                 </Menu.ItemGroup>
                                 <Menu.ItemGroup key="g2" title="Lab 2">
-                                    <Menu.Item key="i3">Question 1</Menu.Item>
+                                    <Link to='/code-editor/2'>
+                                        <Menu.Item key="i3">Question 1</Menu.Item>
+                                    </Link>
+                    
                                 </Menu.ItemGroup>
                             </SubMenu>
                         </Menu>
