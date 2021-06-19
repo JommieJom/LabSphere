@@ -15,8 +15,7 @@ import EditCourse from './components/pages/EditCourse';
 import AdminEditor from './components/admin-editor-page/AdminEditor';
 import AdminEditor2 from './components/admin-editor-page/AdminEditor2';
 
-function App() {
-  return (
+const App = () => (
     <>
       <Router>
         <Navbar />
@@ -36,6 +35,6 @@ function App() {
       </Router>
     </>
   );
-}
+
 
 export default App;
