@@ -2,7 +2,7 @@
   background-color: #242424;
   padding: 4rem 0 2rem 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -100,8 +100,7 @@
 }
 
 .social-media {
-  max-width: 1000px;
-  width: 100%;
+  max-width: 500px;
 }
 
 .social-media-wrap {
@@ -110,7 +109,7 @@
   align-items: center;
   width: 90%;
   max-width: 1000px;
-  margin: 40px auto 0 auto;
+  margin: 40 auto 0 auto;
 }
 
 .social-icons {

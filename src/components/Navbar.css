@@ -82,6 +82,7 @@
 
 .btn-mobile {
   width: 150px;
+  margin-bottom: auto;
 }
 
 @media screen and (max-width: 960px) {

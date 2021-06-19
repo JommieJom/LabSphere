@@ -25,29 +25,6 @@ function Footer() {
                 </div>
             </section>
             */}
-            <div className="footer-links">
-                <div className="footer-link-wrapper">
-                    <div className="footer-link-items">
-                        <h2>Explore</h2>
-                        <Link to="/sign-up">Home</Link>
-                        <Link to="/">About</Link>
-                    </div>
-                </div>
-                <div className="footer-link-wrapper">
-                    <div className="footer-link-items">
-                        <h2>Legal</h2>
-                        <Link to="/sign-up">Terms</Link>
-                        <Link to="/">Privacy</Link>
-                    </div>
-                </div>
-                <div className="footer-link-wrapper">
-                    <div className="footer-link-items">
-                        <h2>Services</h2>
-                        <Link to="/sign-up">Support</Link>
-                        <Link to="/">Events</Link>
-                    </div>
-                </div>
-            </div>
             <section className="social-media">
                 <div>
                     <div className="social-medi-wrap">
@@ -103,6 +80,29 @@ function Footer() {
                     </div>
                 </div>
             </section>
+            <div className="footer-links">
+                <div className="footer-link-wrapper">
+                    <div className="footer-link-items">
+                        <h2>Explore</h2>
+                        <Link to="/sign-up">Home</Link>
+                        <Link to="/">About</Link>
+                    </div>
+                </div>
+                <div className="footer-link-wrapper">
+                    <div className="footer-link-items">
+                        <h2>Legal</h2>
+                        <Link to="/sign-up">Terms</Link>
+                        <Link to="/">Privacy</Link>
+                    </div>
+                </div>
+                <div className="footer-link-wrapper">
+                    <div className="footer-link-items">
+                        <h2>Services</h2>
+                        <Link to="/sign-up">Support</Link>
+                        <Link to="/">Events</Link>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

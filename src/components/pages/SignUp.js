@@ -12,7 +12,7 @@ class SignUp extends React.Component {
 
   componentDidMount() {
     //Add .right by default
-    this.rightSide.classList.add("right");
+    //this.rightSide.classList.add("right");
   }
 
   changeState() {
@@ -43,17 +43,21 @@ class SignUp extends React.Component {
               <Register containerRef={ref => (this.current = ref)} />
             )}
           </div>
+          
+        </div>
+      </div>
+    );
+  }
+}
+
+/*
           <RightSide
             current={current}
             currentActive={currentActive}
             containerRef={ref => (this.rightSide = ref)}
             onClick={this.changeState.bind(this)}
           />
-        </div>
-      </div>
-    );
-  }
-}
+*/
 
 const RightSide = props => {
   return (

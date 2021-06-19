@@ -66,7 +66,7 @@ function Navbar() {
                     </ul>
                     {
                     <Link to='/sign-up' className='btn-mobile'>
-                        {button && <button type="button" class="btn btn-outline-light">Sign up</button>}
+                        {button && <button type="button" class="btn btn-outline-light">Sign in</button>}
                     </Link>
                     }
                     
