@@ -2,6 +2,18 @@ import React from 'react';
 import './MarkdownEditor.css';
 import { Remarkable } from 'remarkable';
 
+const useStateWithLocalStorage = localStorageKey => {
+  const [value, setValue] = React.useState(
+    localStorage.getItem(localStorageKey) || ''
+  );
+ 
+  React.useEffect(() => {
+    localStorage.setItem(localStorageKey, value);
+  }, [value]);
+ 
+  return [value, setValue];
+};
+
 class MarkdownEditor extends React.Component {
     constructor(props) {
       super(props);
@@ -20,7 +32,7 @@ class MarkdownEditor extends React.Component {
     render() {
         return (
           <div className="MarkdownEditor">
-            <h3>Insert Markdown</h3>
+            <h3>Lab Description (Markdown)</h3>
             <label htmlFor="markdown-content">
             </label>
             <textarea
