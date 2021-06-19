@@ -29,6 +29,7 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
+  width: 300px;
 }
 
 .fa-typo3 {
@@ -77,6 +78,10 @@
 
 .menu-icon {
   display: none;
+}
+
+.btn-mobile {
+  width: 150px;
 }
 
 @media screen and (max-width: 960px) {
