@@ -2,10 +2,10 @@ import React from 'react'
 import '../../App.css'
 import LabsMenu from '../ListLabsMenu';
 
-function Learn() {
+function Labs() {
     return (
         <LabsMenu />
     );
 }
 
-export default Learn;
+export default Labs;

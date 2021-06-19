@@ -45,7 +45,7 @@ const Card = ({ taskObj, index, deleteTask, updateListArray }) => {
         <div class="card-wrapper mr-5">
             <div class="card-top" style={{ "background-color": colors[index % 5].primaryColor }}></div>
             <div class="task-holder">
-                <Link to='/lab-list'>
+                <Link to='/lab-sample'>
                     <span class="card-header" style={{ "background-color": colors[index % 5].secondaryColor, "border-radius": "10px" }}>{taskObj.Name}</span>
                 </Link>   
                     <p className="mt-3">{taskObj.Description}</p>
