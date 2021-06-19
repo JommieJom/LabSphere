@@ -47,6 +47,7 @@ class MarkdownEditor extends React.Component {
     }
     render() {
         return (
+          <React.Fragment>
           <div className="MarkdownEditor">
             <h3>Insert lab question</h3>
             <label htmlFor="markdown-content">
@@ -63,6 +64,7 @@ class MarkdownEditor extends React.Component {
               dangerouslySetInnerHTML={this.getRawMarkup()}
             />
           </div>
+          </React.Fragment>
         );
     }
 }

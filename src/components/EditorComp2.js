@@ -53,11 +53,25 @@ class EditorComp2 extends React.Component {
                                     <Link to='/code-editor/1'>
                                         <Menu.Item key="i1">Question 1</Menu.Item>
                                     </Link>
-                                    
                                 </Menu.ItemGroup>
                                 <Menu.ItemGroup key="g2" title="Lab 2">
                                     <Link to='/code-editor/2'>
                                         <Menu.Item key="i3">Question 1</Menu.Item>
+                                    </Link>
+                                </Menu.ItemGroup>
+                                <Menu.ItemGroup key="g3" title="Lab 3">
+                                    <Link to='/code-editor/1'>
+                                        <Menu.Item key="i5">Question 1</Menu.Item>
+                                    </Link>
+                                </Menu.ItemGroup>
+                                <Menu.ItemGroup key="g4" title="Lab 4">
+                                    <Link to='/code-editor/1'>
+                                        <Menu.Item key="i7">Question 1</Menu.Item>
+                                    </Link>
+                                </Menu.ItemGroup>
+                                <Menu.ItemGroup key="g5" title="Lab 5">
+                                    <Link to='/code-editor/1'>
+                                        <Menu.Item key="i9">Question 1</Menu.Item>
                                     </Link>
                                 </Menu.ItemGroup>
                             </SubMenu>
