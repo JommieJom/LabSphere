@@ -46,7 +46,6 @@ function UploadFiles() {
                     uploading company data or other band files
                 </p>
             </Dragger>
-        <button onClick={handleClick}>Submit</button>
         </div>
     );
 }

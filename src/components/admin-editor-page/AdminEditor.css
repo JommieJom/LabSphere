@@ -1,0 +1,25 @@
+.AdminEditor {
+    padding-top: 80px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.RuleForm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.RuleDiv {
+    margin: 0 10%;
+}
+
+.RuleInput {
+    height: 200px;
+    width: 500px;
+}
+
+.RuleSubmit {
+    min-width: 100px;
+}
