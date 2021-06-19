@@ -5,8 +5,11 @@ import UploadFiles from '../UploadFiles';
 
 function AdminEditor() {
     return (
-        <div>
+        <div style = {{paddingTop:80}}>
+            <h1>----------Lab Question----------</h1>
             <MarkdownEditor />
+            <h1>----------Rule Set----------</h1>
+            <h1>----------Upload----------</h1>
             <UploadFiles />
         </div>
     );
