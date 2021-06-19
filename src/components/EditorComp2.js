@@ -12,9 +12,9 @@ const { Header, Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
 const { Panel } = Collapse;
 
-const MARKDOWN_KEY = 'mdVal'
+const MARKDOWN_KEY = 'mdVal2'
 
-class LabSelection extends React.Component {
+class EditorComp2 extends React.Component {
     state = {
         collapsed: false,
     };
@@ -54,7 +54,7 @@ class LabSelection extends React.Component {
                                 </Menu.ItemGroup>
                                 <Menu.ItemGroup key="g2" title="Lab 2">
                                     <Menu.Item key="i3">Question 1</Menu.Item>
-                    
+                                    
                                 </Menu.ItemGroup>
                             </SubMenu>
                         </Menu>
@@ -91,4 +91,4 @@ class LabSelection extends React.Component {
     }
 }
 
-export default LabSelection;
+export default EditorComp2;

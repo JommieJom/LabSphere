@@ -10,8 +10,10 @@ import LabsSample from './components/pages/LabsSample';
 import Footer from './components/Footer';
 import SignUp from './components/pages/SignUp';
 import CodeEditor from './components/pages/CodeEditor';
+import CodeEditor2 from './components/pages/CodeEditor2';
 import EditCourse from './components/pages/EditCourse';
 import AdminEditor from './components/pages/AdminEditor';
+import AdminEditor2 from './components/pages/AdminEditor2';
 
 function App() {
   return (
@@ -24,9 +26,11 @@ function App() {
           <Route path='/lab-list' component={Labs} />
           <Route path='/lab-sample' component={LabsSample} />
           <Route path='/sign-up' component={SignUp} />
-          <Route path='/code-editor' component={CodeEditor} />
+          <Route path='/code-editor/1' component={CodeEditor} />
+          <Route path='/code-editor/2' component={CodeEditor2} />
           <Route path='/edit-course' component={EditCourse} />
-          <Route path='/question-editor' component={AdminEditor} />
+          <Route path='/question-editor/1' component={AdminEditor} />
+          <Route path='/question-editor/2' component={AdminEditor2} />
         </switch>
         <Footer />
       </Router>

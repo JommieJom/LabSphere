@@ -1,5 +1,7 @@
 .MarkdownEditor {
     padding-top: 80px;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .MarkdownEditor .MarkdownEditorText {
