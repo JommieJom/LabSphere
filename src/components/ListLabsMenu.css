@@ -1,6 +1,7 @@
 .list_lab {
-    padding: 4rem;
+    padding: 6rem;
     background: #e1f2fb;
+    min-height: 727px;
   }
   
   h1 {
