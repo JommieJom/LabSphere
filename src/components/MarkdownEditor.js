@@ -46,15 +46,6 @@ class MarkdownEditor extends React.Component {
               className="content"
               dangerouslySetInnerHTML={this.getRawMarkup()}
             />
-            <h3>Insert samples in Markdown form</h3>
-            <label htmlFor="markdown-content">
-            </label>
-            <textarea
-              id="markdown-content"
-              onChange={this.handleChange}
-              defaultValue={this.state.value}
-              className = "MarkdownEditorText"
-            />
           </div>
         );
     }
