@@ -2,6 +2,7 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 import "antd/dist/antd.css";
 import './EditorComp.css';
+import { Link } from 'react-router-dom';
 import { Layout, Menu, Collapse } from 'antd';
 import { AppstoreOutlined, HomeOutlined } from '@ant-design/icons';
 
@@ -57,8 +58,10 @@ class LabSelection extends React.Component {
                 <Layout style={{ minHeight: '100vh' }}>
                     <Sider collapsible collapsed={collapsed} onCollapse={this.onCollapse}>
                         <div className="iconhome">
-                            <HomeOutlined />
-                            LabSphere
+                            <Link to='/lab-list'>
+                                <HomeOutlined />
+                                LabSphere
+                            </Link>
                         </div>
                         <Menu
                             onClick={this.handleClick}

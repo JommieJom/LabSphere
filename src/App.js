@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 import SignUp from './components/pages/SignUp';
 import CodeEditor from './components/pages/CodeEditor';
 import EditCourse from './components/pages/EditCourse';
-
+import AdminEditor from './components/pages/AdminEditor';
 
 function App() {
   return (
@@ -24,6 +24,7 @@ function App() {
           <Route path='/sign-up' component={SignUp} />
           <Route path='/code-editor' component={CodeEditor} />
           <Route path='/edit-course' component={EditCourse} />
+          <Route path='/admin-editor' component={AdminEditor} />
         </switch>
         <Footer />
       </Router>
