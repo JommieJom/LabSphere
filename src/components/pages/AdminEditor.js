@@ -5,6 +5,7 @@ import MarkdownEditor from '../MarkdownEditor';
 function AdminEditor() {
     return (
         <MarkdownEditor />
+        
     );
 }
 

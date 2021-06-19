@@ -6,41 +6,41 @@ import './ListLabsMenu.css';
 function ListLabsMenu() {
     return (
         <div className="list_lab">
-            <h1>Labs </h1>
+            <h1>Labs</h1>
             <div className="list_lab_container">
                 <div className="list_lab_wrapper">
                     <ul className="list_lab_items">
                         <ListItem
                             src=""
-                            text="Python Lab 1"
+                            text="Java Lab 1"
                             path='/code-editor'
                         />
                     </ul>
                     <ul className="list_lab_items">
                         <ListItem
                             src=""
-                            text="Python Lab 2"
+                            text="Java Lab 2"
                             path='/'
                         />
                     </ul>
                     <ul className="list_lab_items">
                         <ListItem
                             src=""
-                            text="Python Lab 3"
+                            text="Java Lab 3"
                             path='/editor'
                         />
                     </ul>
                     <ul className="list_lab_items">
                         <ListItem
                             src=""
-                            text="Python Lab 4"
+                            text="Java Lab 4"
                             path='/'
                         />
                     </ul>
                     <ul className="list_lab_items">
                         <ListItem
                             src=""
-                            text="Python Lab 5"
+                            text="Java Lab 5"
                             path='/'
                         />
                     </ul>
