@@ -10,8 +10,6 @@ function AdminEditor() {
         <div className="AdminEditor">
             <h1>Lab Question</h1>
             <MarkdownEditor />
-            <h1>Rule Set</h1>
-            <RuleSet />
             <h1>Upload</h1>
             <UploadFiles />
         </div>
