@@ -23,6 +23,18 @@
     position: relative;
     margin: 50px 0 45px;
   }
+
+  .list_lab_add_item{
+    font-family: 'Dosis';
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .list_lab_add_item .list_lab_item_text{
+    font-size: 48px;
+    color: red;
+    font-weight: bold;
+  }
   
   .list_lab_items {
     font-family: 'Dosis'; 

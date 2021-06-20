@@ -35,7 +35,7 @@ class LabSelection extends React.Component {
                 <Layout style={{ minHeight: '100vh' }}>
                     <Sider collapsible collapsed={collapsed} onCollapse={this.onCollapse}>
                         <div className="iconhome">
-                            <Link to='/lab-list'>
+                            <Link to='/Course-up'>
                                 <HomeOutlined />
                                 LabSphere
                             </Link>
