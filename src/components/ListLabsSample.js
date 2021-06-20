@@ -44,7 +44,7 @@ function ListLabsSample() {
                             path='/question-editor/2'
                         />
                     </ul>
-                    <ul className="list_lab_add_item">
+                    <ul className="list_lab_add_item">  
                         <ListItem
                             src=""
                             text="+"
