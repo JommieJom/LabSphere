@@ -14,6 +14,7 @@ import CodeEditor2 from './components/pages/CodeEditor2';
 import EditCourse from './components/pages/EditCourse';
 import AdminEditor from './components/admin-editor-page/AdminEditor';
 import AdminEditor2 from './components/admin-editor-page/AdminEditor2';
+import AdminEditor3 from './components/admin-editor-page/AdminEditor3';
 
 const App = () => (
     <>
@@ -30,6 +31,7 @@ const App = () => (
           <Route path='/edit-course' component={EditCourse} />
           <Route path='/question-editor/1' component={AdminEditor} />
           <Route path='/question-editor/2' component={AdminEditor2} />
+          <Route path='/question-editor/3' component={AdminEditor3} />
         </switch>
         <Footer />
       </Router>

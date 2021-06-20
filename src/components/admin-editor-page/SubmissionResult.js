@@ -55,6 +55,12 @@ class SubmissionResult extends React.Component {
         return (
             <React.Fragment>
                 <p>{JSON.stringify(this.state.json)}</p>
+                {
+                    Object.keys(this.state.json).map((key) => { return (
+                        <h3>User: {key}</h3>
+                    )}
+                    )
+                }
             </React.Fragment>
         )
     }
