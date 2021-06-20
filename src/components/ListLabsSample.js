@@ -23,27 +23,7 @@ function ListLabsSample() {
                             path='/question-editor/2'
                         />
                     </ul>
-                    <ul className="list_lab_items">
-                        <ListItem
-                            src=""
-                            text="Java Lab 3 Question and samples"
-                            path='/question-editor/2'
-                        />
-                    </ul>
-                    <ul className="list_lab_items">
-                        <ListItem
-                            src=""
-                            text="Java Lab 4 Question and samples"
-                            path='/question-editor/2'
-                        />
-                    </ul>
-                    <ul className="list_lab_items">
-                        <ListItem
-                            src=""
-                            text="Java Lab 5 Question and samples"
-                            path='/question-editor/2'
-                        />
-                    </ul>
+                    
                     <ul className="list_lab_add_item" onClick={{}}>  
                         <li className="list_lab_item">
                             <div className="list_lab_item_info">
