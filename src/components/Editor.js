@@ -173,10 +173,10 @@ export class Editors extends React.Component {
       pythonValue: DEFAULT_PYTHON_VALUE || this.props.pythonValue,
       javaValue: DEFAULT_JAVA_VALUE || this.props.javaValue,
       themeValue: "default",
-      modeValue: "cpp",
-      uploadType: "editor",
-      showEditor: true,
-      showUpload: false,
+      modeValue: "java",
+      uploadType: "upload_files",
+      showEditor: false,
+      showUpload: true,
     };
     this.instance = null;
   }
@@ -230,6 +230,9 @@ export class Editors extends React.Component {
     try {
       //set language option
       this.setState({ modeValue: value }, () => {
+        if(this.state.uploadType="upload_files") {
+          return;
+        }
         switch (value) {
           case "cpp":
             this.instance.setOption("mode", "text/x-c++src");
@@ -276,7 +279,7 @@ export class Editors extends React.Component {
           >
             <Menu.Item key="1">
               <Select
-                defaultValue="editor"
+                defaultValue={this.state.uploadType}
                 placeholder="Select upload type"
                 style={{ width: 180, padding: 10 }}
                 onChange={this.selectUpload}
@@ -286,7 +289,7 @@ export class Editors extends React.Component {
               </Select>
               <Select
                 showSearch
-                //defaultValue="C++"
+                defaultValue="java"
                 placeholder="Select a language"
                 style={{ width: 180, padding: 10 }}
                 onChange={this.selectMode}

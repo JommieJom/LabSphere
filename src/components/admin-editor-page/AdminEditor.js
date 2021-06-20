@@ -4,6 +4,7 @@ import './AdminEditor.css'
 import MarkdownEditor from './MarkdownEditor';
 import UploadFiles from './UploadFiles';
 import RuleSet from './RuleSet';
+import SubmissionResult from './SubmissionResult';
 
 function AdminEditor() {
     return (
