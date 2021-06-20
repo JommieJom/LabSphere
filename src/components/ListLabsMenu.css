@@ -30,6 +30,16 @@
     margin-bottom: 0px;
   }
 
+  .list_lab_add_item .list_lab_item {
+    background-color: #f1f3f8;
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+  }
+ .list_lab_add_item .list_lab_item_info {
+   width: 100%;
+ }
   .list_lab_add_item .list_lab_item_text{
     font-size: 48px;
     color: red;

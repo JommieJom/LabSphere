@@ -44,14 +44,13 @@ function ListLabsSample() {
                             path='/question-editor/2'
                         />
                     </ul>
-                    <ul className="list_lab_add_item">
-                        <ListItem
-                            src=""
-                            text="+"
-                            path=''
-                        />
+                    <ul className="list_lab_add_item" onClick={{}}>  
+                        <li className="list_lab_item">
+                            <div className="list_lab_item_info">
+                                <h5 className="list_lab_item_text">+</h5>
+                            </div>
+                        </li>
                     </ul>
-                   
                 </div>
             </div>
         </div>
