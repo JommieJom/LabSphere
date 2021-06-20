@@ -11,7 +11,7 @@ function AdminEditor() {
         <div className="AdminEditor">
             <h1>Lab Question</h1>
             <MarkdownEditor />
-            <h1>Upload</h1>
+            <h1>Upload Rule Set</h1>
             <UploadFiles />
         </div>
     );
