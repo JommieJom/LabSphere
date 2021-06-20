@@ -51,7 +51,6 @@ function ListLabsSample() {
                             </div>
                         </li>
                     </ul>
-                   
                 </div>
             </div>
         </div>
