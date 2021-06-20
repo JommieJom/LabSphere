@@ -13,6 +13,7 @@ function AdminEditor() {
             <MarkdownEditor />
             <h1>Upload Rule Set</h1>
             <UploadFiles />
+            <SubmissionResult />
         </div>
     );
 }

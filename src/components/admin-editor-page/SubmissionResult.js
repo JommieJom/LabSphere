@@ -54,7 +54,7 @@ class SubmissionResult extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <p>{this.state.json.Leeching.lab1.submission[0]}</p>
+                <p>{JSON.stringify(this.state.json)}</p>
             </React.Fragment>
         )
     }
